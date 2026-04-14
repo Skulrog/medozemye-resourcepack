@@ -1,0 +1,49 @@
+{
+	"credit": "Сделано Веббером специально для MoreDeco https://modrinth.com/resourcepack/moredeco mc _Webber_3",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "item/carved_pumpkin/emotes/plak"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"faces": {
+				"north": {"uv": [8, 0, 16, 8], "texture": "#1"},
+				"east": {"uv": [8, 0, 8, 7], "texture": "#1"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#1"},
+				"west": {"uv": [8, 0, 8, 7], "texture": "#1"},
+				"up": {"uv": [7, 0, 0, 0], "texture": "#1"},
+				"down": {"uv": [7, 0, 0, 0], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 8], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [7, 0, 0, 0], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [8, 0, 16, 8], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [7, 0, 0, 0], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [8, 0, 8, 7], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [8, 0, 8, 7], "rotation": 90, "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_lefthand": {
+			"translation": [0, -2, 0]
+		},
+		"ground": {
+			"rotation": [90, 0, 0]
+		},
+		"head": {
+			"scale": [1.65, 1.65, 1.65]
+		},
+		"fixed": {
+			"translation": [0, -8, -16],
+			"scale": [2, 2, 2]
+		}
+	}
+}

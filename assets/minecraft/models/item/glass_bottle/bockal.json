@@ -1,0 +1,91 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Сделано Веббером специально для MoreDeco https://modrinth.com/resourcepack/moredeco mc _Webber_3",
+	"textures": {
+		"1": "item/glass_bottle/bockal"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 0, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 0], "texture": "#1"},
+				"east": {"uv": [0, 0, 2, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 2, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 2, 0], "texture": "#1"},
+				"up": {"uv": [2, 5, 0, 3], "texture": "#1"},
+				"down": {"uv": [2, 3, 0, 5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.5, 0, 7.5],
+			"to": [8.5, 2, 8.5],
+			"faces": {
+				"north": {"uv": [2, 3, 3, 5], "texture": "#1"},
+				"east": {"uv": [2, 3, 3, 5], "texture": "#1"},
+				"south": {"uv": [2, 3, 3, 5], "texture": "#1"},
+				"west": {"uv": [2, 3, 3, 5], "texture": "#1"},
+				"up": {"uv": [16, 16, 15, 15], "texture": "#1"},
+				"down": {"uv": [16, 16, 15, 15], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6.5, 2, 6.5],
+			"to": [9.5, 5, 9.5],
+			"faces": {
+				"north": {"uv": [3, 0, 0, 3], "texture": "#1"},
+				"east": {"uv": [0, 0, 3, 3], "texture": "#1"},
+				"south": {"uv": [6, 0, 3, 3], "texture": "#1"},
+				"west": {"uv": [3, 0, 6, 3], "texture": "#1"},
+				"up": {"uv": [16, 13, 13, 16], "texture": "#1"},
+				"down": {"uv": [9, 3, 6, 0], "texture": "#1"}
+			}
+		},
+		{
+			"from": [9.5, 5, 9.5],
+			"to": [6.5, 2, 6.5],
+			"faces": {
+				"north": {"uv": [3, 0, 0, 3], "texture": "#1"},
+				"east": {"uv": [0, 0, 3, 3], "texture": "#1"},
+				"south": {"uv": [6, 0, 3, 3], "texture": "#1"},
+				"west": {"uv": [3, 0, 6, 3], "texture": "#1"},
+				"up": {"uv": [6, 3, 9, 0], "texture": "#1"},
+				"down": {"uv": [16, 16, 13, 13], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-0.5, 7, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-0.5, 7, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [-10, -90, 0],
+			"translation": [0.25, 9.25, -0.75],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-10, 0, 0],
+			"translation": [0.25, 9.25, -0.75],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		},
+		"gui": {
+			"rotation": [20, -45, 0],
+			"translation": [0, 9.5, 0],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"translation": [0, 15.25, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -16.1],
+			"scale": [2, 2, 2]
+		}
+	}
+}

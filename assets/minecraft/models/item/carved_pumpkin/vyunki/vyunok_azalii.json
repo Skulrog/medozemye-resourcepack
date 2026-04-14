@@ -1,0 +1,70 @@
+{
+	"credit": "Сделано Веббером специально для MoreDeco https://modrinth.com/resourcepack/moredeco mc _Webber_3",
+	"textures": {
+		"0": "item/carved_pumpkin/vyunki/vyunki",
+		"particle": "item/carved_pumpkin/vyunki/vyunki"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 3],
+			"to": [13, 5, 12],
+			"faces": {
+				"north": {"uv": [4, 0.44444, 8, 2.66667], "texture": "#0"},
+				"east": {"uv": [0, 0.44444, 4, 2.66667], "texture": "#0"},
+				"south": {"uv": [8, 0.44444, 12, 2.66667], "texture": "#0"},
+				"west": {"uv": [12, 0.44444, 16, 2.66667], "texture": "#0"},
+				"up": {"uv": [14.66667, 14.66667, 16, 16], "texture": "#0"},
+				"down": {"uv": [14.66667, 14.66667, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [13, 5, 12],
+			"to": [4, 0, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 1.5, 7.5]},
+			"faces": {
+				"north": {"uv": [12, 0.44444, 8, 2.66667], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [16, 0.44444, 12, 2.66667], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [8, 0.44444, 4, 2.66667], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [4, 0.44444, 0, 2.66667], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [14.66667, 14.66667, 16, 16], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [14.66667, 14.66667, 16, 16], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 4.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 4.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 4.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 4.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"ground": {
+			"translation": [0, 4, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"gui": {
+			"rotation": [45, 45, 0],
+			"translation": [0, 3.5, 0]
+		},
+		"head": {
+			"rotation": [15, 0, 0],
+			"translation": [-1, 15, 4],
+			"scale": [1.65, 1.65, 1.65]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [-0.75, 0.75, -16],
+			"scale": [2, 2, 2]
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"model": {
+		"type": "condition",
+		"property": "has_component",
+		"component": "custom_name",
+		"on_true": {
+			"type": "select",
+			"property": "component",
+			"component": "custom_name",
+			"cases": [
+				{
+					"when": [ "Stone lectern", "Каменная кафедра" ],
+					"model": {
+						"type": "model",
+						"model": "item/lectern/stone_lectern"
+					}
+				}
+			],
+			"fallback": {
+				"type": "model",
+				"model": "block/lectern"
+			}
+		},
+		"on_false": {
+			"type": "model",
+			"model": "block/lectern"
+		}
+	}
+}

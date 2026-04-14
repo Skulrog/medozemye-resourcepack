@@ -1,0 +1,73 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Сделано Веббером специально для MoreDeco https://modrinth.com/resourcepack/moredeco mc _Webber_3",
+	"textures": {
+		"0": "item/carved_pumpkin/mask/masks",
+		"particle": "item/carved_pumpkin/mask/masks"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 8, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [5, 4, 6, 5], "texture": "#0"},
+				"east": {"uv": [4, 4, 5, 5], "texture": "#0"},
+				"south": {"uv": [7, 4, 8, 5], "texture": "#0"},
+				"west": {"uv": [6, 4, 7, 5], "texture": "#0"},
+				"up": {"uv": [5, 4, 6, 3], "texture": "#0"},
+				"down": {"uv": [5, 6, 6, 5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 8, 4],
+			"to": [12, 0, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [15, 7, 16, 6], "texture": "#0"},
+				"east": {"uv": [4, 5, 5, 4], "texture": "#0"},
+				"south": {"uv": [7, 5, 8, 4], "texture": "#0"},
+				"west": {"uv": [6, 5, 7, 4], "texture": "#0"},
+				"up": {"uv": [5, 5, 6, 6], "texture": "#0"},
+				"down": {"uv": [5, 3, 6, 4], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-2.25, 6, 4],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -180, 0],
+			"translation": [-2.25, 6, -1.25],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -35, 0],
+			"translation": [4, 3.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 98, 0],
+			"translation": [2.25, 6.75, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		},
+		"gui": {
+			"rotation": [25, -150, 0],
+			"translation": [-1.5, 6, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"head": {
+			"translation": [0, 9, 0],
+			"scale": [1.85, 1.85, 1.85]
+		},
+		"fixed": {
+			"translation": [0, 8, 4],
+			"scale": [2, 2, 2]
+		}
+	}
+}

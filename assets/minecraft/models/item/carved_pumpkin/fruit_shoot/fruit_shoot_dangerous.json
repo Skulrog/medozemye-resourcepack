@@ -1,0 +1,106 @@
+{
+	"credit": "Сделано Веббером специально для MoreDeco https://modrinth.com/resourcepack/moredeco mc _Webber_3",
+	"textures": {
+		"0": "item/carved_pumpkin/fruit_shoot/apple",
+		"particle": "item/carved_pumpkin/fruit_shoot/apple"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [11, 5, 11],
+			"faces": {
+				"north": {"uv": [1.53846, 1.53846, 3.07692, 3.07692], "texture": "#0"},
+				"east": {"uv": [6.15385, 1.53846, 4.61538, 3.07692], "texture": "#0"},
+				"south": {"uv": [1.53846, 1.53846, 0, 3.07692], "texture": "#0"},
+				"west": {"uv": [3.07692, 1.53846, 4.61538, 3.07692], "texture": "#0"},
+				"up": {"uv": [1.53846, 0, 3.07692, 1.53846], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [4.61538, 0, 3.07692, 1.53846], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 5, 8.5],
+			"to": [9, 8, 8.5],
+			"faces": {
+				"north": {"uv": [6.46154, 0.92308, 7.69231, 1.84615], "texture": "#0"},
+				"east": {"uv": [6.46154, 1.23077, 6.76923, 1.84615], "texture": "#0"},
+				"south": {"uv": [7.69231, 0.92308, 6.46154, 1.84615], "texture": "#0"},
+				"west": {"uv": [7.69231, 0.92308, 7.07692, 1.84615], "texture": "#0"},
+				"up": {"uv": [6.46154, 0.92308, 7.69231, 1.53846], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [7.69231, 1.23077, 6.46154, 1.84615], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.5, 2, 3],
+			"to": [8.5, 6, 6],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7, 6.5, 3.5]},
+			"faces": {
+				"north": {"uv": [7.69231, 1.23077, 6.46154, 1.84615], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [7.69231, 4.30769, 6.76923, 5.53846], "texture": "#0"},
+				"south": {"uv": [6.46154, 0.92308, 7.69231, 1.53846], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [6.76923, 4.30769, 7.69231, 5.53846], "texture": "#0"},
+				"up": {"uv": [6.46154, 1.23077, 6.76923, 1.84615], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [7.69231, 0.92308, 7.07692, 1.84615], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 2, 5.95],
+			"to": [9, 3, 6],
+			"faces": {
+				"north": {"uv": [8, 5.23077, 8.30769, 5.53846], "texture": "#0"},
+				"east": {"uv": [8, 5.23077, 8.30769, 5.53846], "texture": "#0"},
+				"south": {"uv": [8.30769, 5.23077, 8, 5.53846], "texture": "#0"},
+				"west": {"uv": [8.30769, 5.23077, 8, 5.53846], "texture": "#0"},
+				"up": {"uv": [8, 5.23077, 8.30769, 5.53846], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [8.30769, 5.23077, 8, 5.53846], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [-2.25, 6, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-1.5, 6, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 95, 0],
+			"translation": [0, 5.25, 2.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 5.75, 2.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 4, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"gui": {
+			"rotation": [25, -125, 0],
+			"translation": [0.75, 6, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"head": {
+			"translation": [-0.75, 19.5, -0.75],
+			"scale": [1.65, 1.65, 1.65]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -16],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		0,
+		1,
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [2, 3]
+		}
+	]
+}

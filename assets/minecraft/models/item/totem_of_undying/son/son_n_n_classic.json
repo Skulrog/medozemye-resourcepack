@@ -1,0 +1,7 @@
+{
+	"credit": "Сделено Веббером",
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/totem_of_undying/son/son_n_n_classic"
+    }
+}

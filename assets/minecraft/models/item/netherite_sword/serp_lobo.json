@@ -1,0 +1,45 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Сделано Веббером специально для MoreDeco https://modrinth.com/resourcepack/moredeco mc _Webber_3",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/netherite_sword/serp_lobo"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 55],
+			"translation": [0, 11.5, 4],
+			"scale": [1.5, 1.5, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, -55],
+			"translation": [0, 11.5, 4],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 40],
+			"translation": [2.5, 11, -5],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, -40],
+			"translation": [2.5, 11, -5],
+			"scale": [1.5, 1.5, 1]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0]
+		},
+		"gui": {
+			"translation": [5.5, 5.5, 0],
+			"scale": [1.7, 1.7, 1.5]
+		},
+		"head": {
+			"translation": [-1, 9, 0],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"translation": [3, 3, -1],
+			"scale": [2, 2, 2]
+		}
+	}
+}

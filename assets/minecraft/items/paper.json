@@ -1,0 +1,85 @@
+{
+	"model": {
+		"type": "condition",
+		"property": "has_component",
+		"component": "custom_name",
+		"on_true": {
+			"type": "select",
+			"property": "component",
+			"component": "custom_name",
+			"cases": [
+				{
+					"when": [ "Webber axolotl", "Веббер аксолотль" ],
+					"model": {
+						"type": "model",
+						"model": "item/paper/life_size_figures/webber_2_axolotl"
+					}
+				},
+				{
+					"when": [ "Webber izralityan", "Веббер izralityan" ],
+					"model": {
+						"type": "model",
+						"model": "item/paper/life_size_figures/webber_2_izralityan"
+					}
+				},
+				{
+					"when": [ "Webber summer", "Веббер летний" ],
+					"model": {
+						"type": "model",
+						"model": "item/paper/life_size_figures/webber_2_summer"
+					}
+				},
+				{
+					"when": [ "RudJish", "Руди" ],
+					"model": {
+						"type": "model",
+						"model": "item/paper/life_size_figures/rudjish"
+					}
+				},
+				{
+					"when": [ "RudJish horny", "Руди хорни" ],
+					"model": {
+						"type": "model",
+						"model": "item/paper/life_size_figures/rudjish_horny"
+					}
+				},
+				{
+					"when": [ "Tea bag", "Чайный пакетик" ],
+					"model": {
+						"type": "model",
+						"model": "item/paper/tea_pocket"
+					}
+				},
+				{
+					"when": [ "Stack of money", "Стопка денег" ],
+					"model": {
+						"type": "model",
+						"model": "item/paper/money_1"
+					}
+				},
+				{
+					"when": [ "Medium stack of money", "Средняя стопка денег" ],
+					"model": {
+						"type": "model",
+						"model": "item/paper/money_2"
+					}
+				},
+				{
+					"when": [ "Big stack of money", "Большая стопка денег" ],
+					"model": {
+						"type": "model",
+						"model": "item/paper/money_4"
+					}
+				}
+			],
+			"fallback": {
+				"type": "model",
+				"model": "item/paper"
+			}
+		},
+		"on_false": {
+			"type": "model",
+			"model": "item/paper"
+		}
+	}
+}

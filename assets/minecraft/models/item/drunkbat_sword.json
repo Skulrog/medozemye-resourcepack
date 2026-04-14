@@ -1,0 +1,50 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/solo",
+		"particle": "item/solo"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-40, -90, 0],
+			"translation": [-0.5, 8.5, 3.25],
+			"scale": [1.4, 1.4, 2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-130, -90, 0],
+			"translation": [-12.5, -12.75, 1.25],
+			"scale": [1.4, 1.4, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [-30, -92.25, 32.25],
+			"translation": [4.25, 5.5, -5.25],
+			"scale": [1.4, 1.4, 2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-45.72, -90, 113.47],
+			"translation": [-24.75, -9, -5],
+			"scale": [1.4, 1.4, 2]
+		},
+		"ground": {
+			"rotation": [0, 0, 45],
+			"translation": [0, 8.75, 0],
+			"scale": [1, 1, 2]
+		},
+		"head": {
+			"rotation": [-165, 90, -43.5],
+			"translation": [0.5, 2.75, -2.75],
+			"scale": [2, 2, 4]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 0, -0.75],
+			"scale": [2.5, 2.5, 2]
+		},
+		"on_shelf": {
+			"scale": [1.8, 1.8, 1.8]
+		}
+	}
+}

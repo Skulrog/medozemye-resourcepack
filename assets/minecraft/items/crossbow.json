@@ -1,0 +1,99 @@
+{
+  "model": {
+    "type": "condition",
+    "property": "has_component",
+    "component": "custom_name",
+    "on_true": {
+      "type": "select",
+      "property": "component",
+      "component": "custom_name",
+      "cases": [
+        {
+          "when": [ "vasa_mausersrg_desert", "Алая Печать" ],
+          "model": {
+            "type": "model",
+            "model": "item/vasa_mausersrg_desert"
+          }
+        },
+        {
+          "when": [ "gozntv_pistol", "Пистоль Донкихота" ],
+          "model": {
+            "type": "model",
+            "model": "item/gozntv_pistol"
+          }
+        },
+        {
+          "when": [ "Speaker", "Громкоговоритель" ],
+          "model": {
+            "type": "model",
+            "model": "item/crossbow/speaker"
+          }
+        },
+        {
+          "when": [ "Golden microphone", "Золотой микрофон" ],
+          "model": {
+            "type": "model",
+            "model": "item/crossbow/microfon/gold_microfon"
+          }
+        },
+        {
+          "when": [ "Golden party microphone", "Золотой пати микрофон" ],
+          "model": {
+            "type": "model",
+            "model": "item/crossbow/microfon/gold_microfon_paty"
+          }
+        },
+        {
+          "when": [ "Golden party microphone on a stand", "Золотой пати микрофон на стойке" ],
+          "model": {
+            "type": "model",
+            "model": "item/crossbow/microfon/gold_microfon_paty_stand"
+          }
+        },
+        {
+          "when": [ "Golden microphone on a stand", "Золотой микрофон на стойке" ],
+          "model": {
+            "type": "model",
+            "model": "item/crossbow/microfon/gold_microfon_stand"
+          }
+        },
+        {
+          "when": [ "Microphone", "Микрофон" ],
+          "model": {
+            "type": "model",
+            "model": "item/crossbow/microfon/microfon"
+          }
+        },
+        {
+          "when": [ "Party microphone", "Пати микрофон" ],
+          "model": {
+            "type": "model",
+            "model": "item/crossbow/microfon/microfon_paty"
+          }
+        },
+        {
+          "when": [ "Party microphone on a stand", "Пати микрофон на стойке" ],
+          "model": {
+            "type": "model",
+            "model": "item/crossbow/microfon/microfon_paty_stand"
+          }
+        },
+        {
+          "when": [ "Microphone on a stand", "Микрофон на стойке" ],
+          "model": {
+            "type": "model",
+            "model": "item/crossbow/microfon/microfon_stand"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "model",
+        "model": "item/crossbow"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "item/crossbow"
+    }
+  }
+}

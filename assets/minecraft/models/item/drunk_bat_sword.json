@@ -1,0 +1,48 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/drunk_bat_sword"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-39.5, -90, 0],
+			"translation": [0, 8.25, 3.5],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-133.5, -90, 0],
+			"translation": [-11.75, -12.25, 2.25],
+			"scale": [1.4, 1.4, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-30, -92.25, 32.25],
+			"translation": [4, 4.25, -5],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, 79.75, -80.75],
+			"translation": [-24.25, -12.25, -5],
+			"scale": [2, 2, 1]
+		},
+		"ground": {
+			"rotation": [0, 0, 45],
+			"translation": [0, 12, 0],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"head": {
+			"rotation": [-161.5, 85, -42.75],
+			"translation": [0.25, 4, -3.25],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 0, -0.75],
+			"scale": [2.5, 2.5, 2]
+		},
+		"on_shelf": {
+			"scale": [1.8, 1.8, 1.8]
+		}
+	}
+}
