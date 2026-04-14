@@ -1,7 +1,0 @@
-{
-	"credit": "Сделано Веббером специально для MoreDeco https://modrinth.com/resourcepack/moredeco mc _Webber_3",
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/salmon/rolls"
-    }
-}

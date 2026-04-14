@@ -1,7 +1,0 @@
-{
-	"credit": "Сделено Веббером https://t.me/webber_3",
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/totem_of_undying/webber/webber_mafiozi"
-    }
-}

@@ -1,7 +1,0 @@
-{
-	"credit": "",
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "item/spyglass/0spyglass"
-    }
-}

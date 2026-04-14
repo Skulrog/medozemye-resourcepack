@@ -1,7 +1,0 @@
-{
-	"credit": "Сделано Веббером специально для MoreDeco https://modrinth.com/resourcepack/moredeco mc _Webber_3",
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "item/red_dye/color_palette"
-    }
-}
