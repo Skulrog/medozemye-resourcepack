@@ -1,0 +1,57 @@
+{
+	"model": {
+		"type": "condition",
+		"property": "has_component",
+		"component": "custom_name",
+		"on_true": {
+			"type": "select",
+			"property": "component",
+			"component": "custom_name",
+			"cases": [
+				{
+					"when": [ "Garland", "Гирлянда" ],
+					"model": {
+						"type": "model",
+						"model": "item/glass/light_gerlyanda"
+					}
+				},
+				{
+					"when": [ "Checkboxes", "Флажки" ],
+					"model": {
+						"type": "model",
+						"model": "item/glass/ne_gerlyanda"
+					}
+				},
+				{
+					"when": [ "Colored garlands", "Цветная гирлянда" ],
+					"model": {
+						"type": "model",
+						"model": "item/glass/rgbo_gerlyanda"
+					}
+				},
+				{
+					"when": [ "Stars", "Звёздочки" ],
+					"model": {
+						"type": "model",
+						"model": "item/glass/star_gerlyanda"
+					}
+				},
+				{
+					"when": [ "Snow globe", "Снежный шар" ],
+					"model": {
+						"type": "model",
+						"model": "item/glass/ngshar"
+					}
+				}
+			],
+			"fallback": {
+				"type": "model",
+				"model": "block/glass"
+			}
+		},
+		"on_false": {
+			"type": "model",
+			"model": "block/glass"
+		}
+	}
+}

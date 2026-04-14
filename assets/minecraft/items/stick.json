@@ -1,0 +1,87 @@
+{
+	"model": {
+		"type": "condition",
+		"property": "has_component",
+		"component": "custom_name",
+		"on_true": {
+			"type": "select",
+			"property": "component",
+			"component": "custom_name",
+			"cases": [
+				{
+					"when": [ "Black cane", "Чёрная трость" ],
+					"model": {
+						"type": "model",
+						"model": "item/stick/trost"
+					}
+				},
+				{
+					"when": "⠕Трость со шляпой⢘",
+					"model": {
+						"type": "model",
+						"model": "item/stick/trost_hat"
+					}
+				},
+				{
+					"when": [ "Lollipop cane", "Трость леденец" ],
+					"model": {
+						"type": "model",
+						"model": "item/stick/trost_ledenec"
+					}
+				},
+				{
+					"when": "dickaya ambrlla",
+					"model": {
+						"type": "condition",
+						"property": "component",
+						"predicate": "enchantments",
+						"value": [
+							{
+								"enchantments": [
+									"knockback"
+								],
+								"levels": 3
+							}
+						],
+						"on_true": {
+							"type": "composite",
+							"models": [
+								{
+									"type": "select",
+									"property": "display_context",
+									"cases": [
+										{
+											"when": [
+												"thirdperson_righthand"
+											],
+											"model": {
+												"type": "model",
+												"model": "item/stick/rolled_up_dickaya_ambrlla"
+											}
+										}
+									],
+									"fallback": {
+										"type": "model",
+										"model": "item/stick/dickaya_ambrlla"
+									}
+								}
+							]
+						},
+						"on_false": {
+							"type": "model",
+							"model": "item/stick/rolled_up_dickaya_ambrlla"
+						}
+					}
+				}
+			],
+			"fallback": {
+				"type": "model",
+				"model": "item/stick"
+			}
+		},
+		"on_false": {
+			"type": "model",
+			"model": "item/stick"
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"credit": "Сделано Веббером специально для MoreDeco https://modrinth.com/resourcepack/moredeco mc _Webber_3",
+    "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/netherite_sword/golden_sword_big"
+  }
+}

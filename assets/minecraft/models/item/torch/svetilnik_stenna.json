@@ -1,0 +1,45 @@
+{
+	"credit": "Сделано Веббером специально для MoreDeco https://modrinth.com/resourcepack/moredeco mc _Webber_3",
+	"textures": {
+		"0": "item/torch/svetilnik_stenna",
+		"particle": "item/torch/svetilnik_stenna"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 3],
+			"to": [10, 3, 7],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 7], "texture": "#0"},
+				"east": {"uv": [0, 7, 4, 10], "texture": "#0"},
+				"south": {"uv": [0, 4, 4, 7], "texture": "#0"},
+				"west": {"uv": [0, 7, 4, 10], "texture": "#0"},
+				"up": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"down": {"uv": [0, 9, 1, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 0, 9],
+			"to": [10, 5.1, 10],
+			"faces": {
+				"north": {"uv": [4, 0, 8, 5], "texture": "#0"},
+				"east": {"uv": [8, 0, 9, 5], "texture": "#0"},
+				"south": {"uv": [8, 0, 4, 5], "texture": "#0"},
+				"west": {"uv": [8, 0, 9, 5], "texture": "#0"},
+				"up": {"uv": [4, 5, 8, 6], "texture": "#0"},
+				"down": {"uv": [4, 6, 8, 7], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [110, 180, -45],
+			"translation": [-6.5, -0.5, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -14],
+			"scale": [2, 2, 2]
+		}
+	}
+}

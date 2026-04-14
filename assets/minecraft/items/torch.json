@@ -1,0 +1,36 @@
+{
+	"model": {
+		"type": "condition",
+		"property": "has_component",
+		"component": "custom_name",
+		"on_true": {
+			"type": "select",
+			"property": "component",
+			"component": "custom_name",
+			"cases": [
+				{
+					"when": [ "Wall Mounted Torch Holder", "Настенный держатель факела" ],
+					"model": {
+						"type": "model",
+						"model": "item/torch/svetilnik_stenna"
+					}
+				},
+				{
+					"when": [ "Torch stand", "Подставка для факела" ],
+					"model": {
+						"type": "model",
+						"model": "item/torch/torching"
+					}
+				}
+			],
+			"fallback": {
+				"type": "model",
+				"model": "item/torch"
+			}
+		},
+		"on_false": {
+			"type": "model",
+			"model": "item/torch"
+		}
+	}
+}

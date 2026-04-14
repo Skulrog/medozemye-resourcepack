@@ -1,0 +1,104 @@
+{
+	"model": {
+		"type": "condition",
+		"property": "has_component",
+		"component": "custom_name",
+		"on_true": {
+			"type": "select",
+			"property": "component",
+			"component": "custom_name",
+			"cases": [
+				{
+					"when": [ "Glass of Blue Blyoba", "Бокал Синей Блёбы" ],
+					"model": {
+						"type": "model",
+						"model": "item/potion/bockal_blubalobi"
+					}
+				},
+				{
+					"when": [ "Glass of Cock Cola", "Бокал Кок Колы" ],
+					"model": {
+						"type": "model",
+						"model": "item/potion/bockal_cock"
+					}
+				},
+				{
+					"when": [ "Glass of S-37", "Бокал S-37" ],
+					"model": {
+						"type": "model",
+						"model": "item/potion/bockal_s-37"
+					}
+				},
+				{
+					"when": [ "Bonk", "Бонк" ],
+					"model": {
+						"type": "model",
+						"model": "item/potion/bonk"
+					}
+				},
+				{
+					"when": [ "Cock Cola", "Кок кола" ],
+					"model": {
+						"type": "model",
+						"model": "item/potion/cola"
+					}
+				},
+				{
+					"when": [ "Mug of chocolate", "Кружка шоколада" ],
+					"model": {
+						"type": "model",
+						"model": "item/potion/cup_chocolate"
+					}
+				},
+				{
+					"when": [ "Mug", "Кружка" ],
+					"model": {
+						"type": "model",
+						"model": "item/potion/cup1"
+					}
+				},
+				{
+					"when": [ "Flash", "Флеш" ],
+					"model": {
+						"type": "model",
+						"model": "item/potion/flash"
+					}
+				},
+				{
+					"when": [ "Cup of Cock Cola", "Стакан Кок Колы" ],
+					"model": {
+						"type": "model",
+						"model": "item/potion/stackan_cock"
+					}
+				},
+				{
+					"when": [ "Cup of Cumomile Cocktail", "Стакан Камового коктейля" ],
+					"model": {
+						"type": "model",
+						"model": "item/potion/stackan_cum"
+					}
+				}
+			],
+			"fallback": {
+				"type": "minecraft:model",
+				"model": "minecraft:item/potion",
+				"tints": [
+					{
+						"type": "minecraft:potion",
+						"default": -13083194
+					}
+				]
+			}
+		},
+		"on_false": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/potion",
+			"tints": [
+				{
+					"type": "minecraft:potion",
+					"default": -13083194
+				}
+			]
+		}
+	}
+}

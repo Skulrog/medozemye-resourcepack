@@ -1,0 +1,85 @@
+{
+	"model": {
+		"type": "condition",
+		"property": "has_component",
+		"component": "custom_name",
+		"on_true": {
+			"type": "select",
+			"property": "component",
+			"component": "custom_name",
+			"cases": [
+				{
+					"when": [ "Brick 1", "Кирпич 1" ],
+					"model": {
+						"type": "model",
+						"model": "item/brick/brick"
+					}
+				},
+				{
+					"when": [ "Brick 2", "Кирпич 2" ],
+					"model": {
+						"type": "model",
+						"model": "item/brick/bricks_2"
+					}
+				},
+				{
+					"when": [ "Brick 3", "Кирпич 3" ],
+					"model": {
+						"type": "model",
+						"model": "item/brick/bricks_3"
+					}
+				},
+				{
+					"when": [ "Brick 4", "Кирпич 4" ],
+					"model": {
+						"type": "model",
+						"model": "item/brick/bricks_4"
+					}
+				},
+				{
+					"when": [ "Brick 5", "Кирпич 5" ],
+					"model": {
+						"type": "model",
+						"model": "item/brick/bricks_5"
+					}
+				},
+				{
+					"when": [ "Brick 6", "Кирпич 6" ],
+					"model": {
+						"type": "model",
+						"model": "item/brick/bricks_6"
+					}
+				},
+				{
+					"when": [ "Brick 7", "Кирпич 7" ],
+					"model": {
+						"type": "model",
+						"model": "item/brick/bricks_7"
+					}
+				},
+				{
+					"when": [ "Brick 8", "Кирпич 8" ],
+					"model": {
+						"type": "model",
+						"model": "item/brick/bricks_8"
+					}
+				},
+				{
+					"when": [ "Brick 9", "Кирпич 9" ],
+					"model": {
+						"type": "model",
+						"model": "item/brick/bricks_9"
+					}
+				}
+			],
+			"fallback": {
+				"type": "model",
+				"model": "item/brick"
+			}
+		},
+		"on_false": {
+			"type": "model",
+			"model": "item/brick"
+		}
+	}
+}

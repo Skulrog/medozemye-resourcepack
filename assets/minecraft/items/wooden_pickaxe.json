@@ -1,0 +1,29 @@
+{
+	"model": {
+		"type": "condition",
+		"property": "has_component",
+		"component": "custom_name",
+		"on_true": {
+			"type": "select",
+			"property": "component",
+			"component": "custom_name",
+			"cases": [
+				{
+					"when": [ "Chisel cutter", "Стамеска резчика" ],
+					"model": {
+						"type": "model",
+						"model": "item/wooden_pickaxe/stameska_rezchika"
+					}
+				}
+			],
+			"fallback": {
+				"type": "model",
+				"model": "item/wooden_pickaxe"
+			}
+		},
+		"on_false": {
+			"type": "model",
+			"model": "item/wooden_pickaxe"
+		}
+	}
+}

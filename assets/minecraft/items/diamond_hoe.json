@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Windreaper",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/windreaper"
+        }
+      },
+      {
+        "when": [ "wings_divingi", "Грēшные Крылья"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/wings_divingi"
+        }
+      },
+      {
+        "when": "Revenant's Darkscepter",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/revenants_darkscepter"
+        }
+      },
+      {
+        "when": "Revenant's Gravescepter",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/revenants_gravescepter"
+        }
+      },
+      {
+        "when": "Crystal Frostscythe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/crystal_frostscythe"
+        }
+      },
+      {
+        "when": "Azure Scythe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/azure_scythe"
+        }
+      },
+      {
+        "when": "Iron Hay Sickle",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/iron_hay_sickle"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/diamond_hoe"
+    }
+  }
+}

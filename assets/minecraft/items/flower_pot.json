@@ -1,0 +1,78 @@
+{
+	"model": {
+		"type": "condition",
+		"property": "has_component",
+		"component": "custom_name",
+		"on_true": {
+			"type": "select",
+			"property": "component",
+			"component": "custom_name",
+			"cases": [
+				{
+					"when": [ "Basket for flowers", "Корзина для цветов" ],
+					"model": {
+						"type": "model",
+						"model": "item/flower_pot/flowersing"
+					}
+				},
+				{
+					"when": [ "Basket blue flowers", "Корзина синих цветов" ],
+					"model": {
+						"type": "model",
+						"model": "item/flower_pot/flowersing_blu"
+					}
+				},
+				{
+					"when": [ "Basket of Crimson Mushrooms", "Корзина багровых грибов" ],
+					"model": {
+						"type": "model",
+						"model": "item/flower_pot/flowersing_crimson"
+					}
+				},
+				{
+					"when": [ "Basket light blue flowers", "Корзина голубых цветов" ],
+					"model": {
+						"type": "model",
+						"model": "item/flower_pot/flowersing_lightblu"
+					}
+				},
+				{
+					"when": [ "Basket Nether Wart", "Корзина Нароста Нижнего мира" ],
+					"model": {
+						"type": "model",
+						"model": "item/flower_pot/flowersing_nether_wart"
+					}
+				},
+				{
+					"when": [ "Basket red flowers", "Корзина красных цветов" ],
+					"model": {
+						"type": "model",
+						"model": "item/flower_pot/flowersing_red"
+					}
+				},
+				{
+					"when": [ "Basket of Warped Mushrooms", "Корзина искажённых грибов" ],
+					"model": {
+						"type": "model",
+						"model": "item/flower_pot/flowersing_warped"
+					}
+				},
+				{
+					"when": [ "Basket white flowers", "Корзина белых цветов" ],
+					"model": {
+						"type": "model",
+						"model": "item/flower_pot/flowersing_white"
+					}
+				}
+			],
+			"fallback": {
+				"type": "model",
+				"model": "item/flower_pot"
+			}
+		},
+		"on_false": {
+			"type": "model",
+			"model": "item/flower_pot"
+		}
+	}
+}

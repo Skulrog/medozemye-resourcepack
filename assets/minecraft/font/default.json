@@ -1,0 +1,166 @@
+{
+    "providers": [
+		        {
+            "type": "bitmap",
+            "file": "minecraft:font/tab.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": [
+                    "\u00C0"
+                ]
+        },
+				{
+            "type": "bitmap",
+            "file": "minecraft:font/discord.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                    "\u00C3"
+                ]
+        },				
+				{
+            "type": "bitmap",
+            "file": "minecraft:font/wiki.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                    "\u00C4"
+                ]
+        },
+				{
+            "type": "bitmap",
+            "file": "minecraft:font/shop.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                    "\u0174"
+                ]
+        },
+				{
+            "type": "bitmap",
+            "file": "minecraft:font/admin.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                    "\u00DE"
+                ]
+        },
+				{
+            "type": "bitmap",
+            "file": "minecraft:font/moderator.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                    "\u00C1"
+                ]
+		},
+				{
+            "type": "bitmap",
+            "file": "minecraft:font/helper.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                    "\u0266"
+                ]
+		},
+				{
+            "type": "bitmap",
+            "file": "minecraft:font/gamemaster.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                    "\u00C8"
+                ]
+		},
+				{
+            "type": "bitmap",
+            "file": "minecraft:font/lider.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                    "\u00C2"
+                ]
+		},
+				{
+            "type": "bitmap",
+            "file": "minecraft:font/donate.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                    "\u00C6"
+                ]
+        },	
+				{
+            "type": "bitmap",
+            "file": "minecraft:font/tabaxi.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                    "\u0283"
+                ]
+        },
+				{
+            "type": "bitmap",
+            "file": "minecraft:font/demon.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                    "\u0284"
+                ]
+        },
+				{
+            "type": "bitmap",
+            "file": "minecraft:font/aviar.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                    "\u0285"
+                ]
+        },
+				{
+            "type": "bitmap",
+            "file": "minecraft:font/elf.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                    "\u0286"
+                ]
+        },
+				{
+            "type": "bitmap",
+            "file": "minecraft:font/dworf.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                    "\u0287"
+                ]
+        },
+				{
+            "type": "bitmap",
+            "file": "minecraft:font/micro_on.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                    "\u0288"
+                ]
+        },
+				{
+            "type": "bitmap",
+            "file": "minecraft:font/micro_off.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                    "\u0289"
+                ]
+        },
+				{
+            "type": "bitmap",
+            "file": "minecraft:font/micro_mute.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                    "\u02A9" 
+                ]
+        }
+    ]
+}

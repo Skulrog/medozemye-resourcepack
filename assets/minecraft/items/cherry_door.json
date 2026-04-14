@@ -1,0 +1,29 @@
+{
+	"model": {
+		"type": "condition",
+		"property": "has_component",
+		"component": "custom_name",
+		"on_true": {
+			"type": "select",
+			"property": "component",
+			"component": "custom_name",
+			"cases": [
+				{
+					"when": [ "Broken door", "Выбитая дверь" ],
+					"model": {
+						"type": "model",
+						"model": "item/doors/cherry_vibitaia_door"
+					}
+				}
+			],
+			"fallback": {
+				"type": "model",
+				"model": "item/cherry_door"
+			}
+		},
+		"on_false": {
+			"type": "model",
+			"model": "item/cherry_door"
+		}
+	}
+}
